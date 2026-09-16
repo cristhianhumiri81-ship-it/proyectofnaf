@@ -1,0 +1,263 @@
+/* ==============================
+   ESTILOS GENERALES
+   ============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #090909;
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+
+/* ==============================
+   ENCABEZADO
+   ============================== */
+
+header {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 5%;
+    text-align: center;
+    background-color: #151515;
+    border-bottom: 4px solid #b91c1c;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    color: #ef4444;
+    font-size: 3em;
+    text-shadow: 0 0 10px #7f1d1d;
+}
+
+header p {
+    margin: 0;
+    color: #d1d5db;
+    font-size: 1.2em;
+}
+
+
+/* ==============================
+   NAVEGACIÓN
+   ============================== */
+
+nav {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 2%;
+    text-align: center;
+    background-color: #1f1f1f;
+    border-bottom: 2px solid #7f1d1d;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px 6px;
+    padding: 8px 12px;
+    color: #f3f4f6;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+
+/* ==============================
+   CONTENIDO PRINCIPAL
+   ============================== */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 35px 0;
+    padding: 35px 5%;
+    background-color: #151515;
+    border-left: 4px solid #dc2626;
+    border-radius: 6px;
+}
+
+article {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 0;
+    color: #ef4444;
+    font-size: 2em;
+}
+
+h3 {
+    color: #f59e0b;
+    font-size: 1.35em;
+}
+
+p {
+    color: #d1d5db;
+}
+
+ul,
+ol {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #d1d5db;
+}
+
+
+/* ==============================
+   CITAS
+   ============================== */
+
+blockquote {
+    margin: 25px 0;
+    padding: 20px 25px;
+    background-color: #1f1f1f;
+    border-left: 5px solid #f59e0b;
+    color: #f3f4f6;
+    font-style: italic;
+}
+
+
+/* ==============================
+   VIDEO
+   ============================== */
+
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #7f1d1d;
+    border-radius: 6px;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #9ca3af;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+
+/* ==============================
+   GALERÍA
+   ============================== */
+
+#galeria {
+    text-align: center;
+}
+
+#galeria figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+    margin: 1.5%;
+    padding: 12px;
+    background-color: #1f1f1f;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#galeria figure:hover {
+    border-color: #dc2626;
+}
+
+#galeria img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+/* ==============================
+   INTRODUCCIÓN
+   ============================== */
+
+#introduccion {
+    border-left-color: #f59e0b;
+}
+
+#introduccion h2 {
+    color: #f59e0b;
+}
+
+
+/* ==============================
+   VIDEO
+   ============================== */
+
+#video {
+    border-left-color: #7f1d1d;
+}
+
+
+/* ==============================
+   CONCLUSIÓN
+   ============================== */
+
+#conclusion {
+    border-left-color: #f59e0b;
+}
+
+#conclusion h2 {
+    color: #f59e0b;
+}
+
+
+/* ==============================
+   PIE DE PÁGINA
+   ============================== */
+
+footer {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding: 30px 5%;
+    background-color: #151515;
+    text-align: center;
+    border-top: 3px solid #dc2626;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #9ca3af;
+}
+
+
+/* ==============================
+   ADAPTACIÓN FLUIDA
+   Sin Flexbox, Grid ni Media Queries
+   ============================== */
+
+img,
+iframe {
+    max-width: 100%;
+    height: auto;
+}
